@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "AkzidenzGrotesk-Regular";
+  src: url("../fonts/AkzidenzGrotesk-Regular.otf")format("opentype");
+  src: url("../fonts/AkzidenzGrotesk-Regular.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-Regular.woff")format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk-Light";
+  src: url("../fonts/AkzidenzGrotesk-Light.otf")format("opentype");
+  src: url("../fonts/AkzidenzGrotesk-Light.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-Light.woff")format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk-LightCn";
+  src: url("../fonts/AkzidenzGrotesk-LightCn.otf")format("opentype");
+  src: url("../fonts/AkzidenzGrotesk-LightCn.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-LightCn.woff")format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk-Light";
+  src: url("../fonts/AkzidenzGroteskPro-MdCn.otf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-MdCn.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-MdCn.woff")format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk-BoldCn";
+  src: url("../fonts/AkzidenzGrotesk-BoldCn.otf")format("opentype");
+  src: url("../fonts/AkzidenzGrotesk-BoldCn.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-BoldCn.woff")format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AkzidenzGrotesk-XBd";
+  src: url("../fonts/AkzidenzGrotesk-XBd.otf")format("opentype");
+  src: url("../fonts/AkzidenzGrotesk-XBd.ttf")format("truetype");
+  src: url("../fonts/AkzidenzGrotesk-XBd.woff")format("woff");
+  font-weight: 800;
+  font-style: normal;
+}

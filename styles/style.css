@@ -1,0 +1,444 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #000;
+}
+
+p {
+  font-family: 'AkzidenzGrotesk-Regular';
+  font-size: 18px;
+  font-weight: normal;
+
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;s
+}
+
+article {
+  position: absolute;
+  top: 550px;
+  left: 175px;
+}
+
+article h1 {
+  font-family: 'Ubuntu', sans-serif;;
+  font-size: 24px;
+  font-weight: bold;
+
+  color: #000;
+}
+
+article p {
+  width: 200px;
+  font-family: 'AkzidenzGrotesk-Light';
+  font-weight: 100;
+  color: #000;
+}
+
+.letter-content {
+  width: 100%;
+    display: block;
+
+    margin: 0 auto;
+}
+
+.letter-content .spot {
+    position: absolute;
+    z-index: -2;
+    top: 104px;
+
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.letter-content .group {
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.letter-content .letter {
+    position: relative;
+    z-index: -1;
+
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.letter-content-1 .info {
+    width: 160px;
+}
+
+.left-spot {
+  position: absolute;
+  top: 1500px;
+  left: -30px;
+}
+
+
+.invite {
+  margin-bottom: -80px;
+}
+
+footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: #f4d811;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    font-family: 'AkzidenzGrotesk-BoldCn';
+    font-weight: 800;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #000;
+}
+
+footer img {
+    height: 60px;
+}
+
+@media only screen and (min-width: 320px)
+{
+    .eyes {
+      position: relative;
+      z-index: -1;
+      top: 30px;
+      left: 45%;
+    }
+
+    img.letter2 {
+      position: absolute;
+      z-index: -1;
+      display: block;
+
+      width: 400px;
+      margin: 0 auto;
+      margin-bottom: 100px;
+    }
+
+    img.letter7 {
+        display: none;
+    }
+
+    img.absurd {
+        display: none;
+    }
+
+    img.day {
+        display: none;
+    }
+
+    img.open {
+        display: none;
+    }
+
+    .spot {
+        width: 100px;
+        margin-top: 90px;
+    }
+
+    .left-content .content {
+        width: 300px;
+        height: 400px;
+    }
+
+    .left-info {
+      position: absolute;
+      top: 1030px;
+      left: 70px;
+      width: 180px;
+    }
+
+    .right-info {
+        position: absolute;
+        top: 1300px;
+        left: 200px;
+        width: 160px;
+    }
+
+    .animal {
+      position: absolute;
+      top: 1750px;
+      left: 270px;
+      display:
+    }
+
+    .zebra {
+      display: none;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      margin-bottom: 4px;
+      color: #F4D811;
+    }
+
+    .invite {
+      padding-top: 80px;
+      width: 250px;
+    }
+
+    .tiger img {
+      display: none;
+    }
+
+    footer {
+      padding: 30px 80px 30px 0;
+    }
+
+    footer a {
+      font-size: 14px;
+    }
+}
+@media only screen and (min-width: 410px)
+{
+  article {
+    left: 190px;
+  }
+
+  .left-info
+  {
+    left: 85px;
+    width: 180px;
+  }
+
+  .right-info {
+      left: 450px;
+      width: 160px;
+      font-size: 25px;
+      top: 1480px;
+  }
+
+  .invite {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1600px;
+    margin-left: 64px;
+  }
+
+  .invite h2 {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+
+  .invite p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .eyes {
+        position: relative;
+        z-index: -1;
+        top: 50px;
+        left: 400px;
+
+        width: 100px;
+    }
+
+    img.letter2 {
+        display: none;
+    }
+
+    img.letter7 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    img.absurd {
+        position: absolute;
+        top: 220px;
+        left: 260px;
+        display: block;
+
+        width: 300px;
+    }
+
+    img.day {
+        position: absolute;
+        top: 1250px;
+        left: 460px;
+        display: block;
+
+        width: 150px;
+    }
+
+    img.open {
+        position: absolute;
+        top: 800px;
+        left: 270px;
+        display: block;
+
+        width: 60px;
+    }
+
+    article {
+      top: 760px;
+      left: 450px;
+    }
+
+    .left-info {
+      width: 250px;
+      top: 1130px;
+      left: 150px;
+      font-size: 25px;
+    }
+
+    .rift-info {
+    left: 460px;
+    }
+
+    .letter-content .spot {
+        position: absolute;
+        top: 155px;
+    }
+
+    .animal {
+      display: none;
+    }
+
+    img.zebra {
+      display: block;
+      margin: 0 auto;
+      margin-top: -220px;
+    }
+
+    .invite {
+      text-align: center;
+      display: block;
+      width: 450px;
+      margin: 0 auto;
+    }
+
+    .invite h2 {
+      font-size: 40px;
+      color: #F4D811;
+      margin-bottom: 5px;
+    }
+
+    .invite p {
+      font-size: 25px;
+    }
+
+    .tiger img {
+      display: none;
+    }
+
+    footer a {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+    .eyes {
+        position: relative;
+        z-index: -1;
+        top: 90px;
+        left: 500px;
+
+        width: 200px;
+    }
+
+    img.absurd {
+      padding-top: 80px;
+      top: 210px;
+      left: 380px;
+    }
+
+    article {
+      top: 825px;
+      left: 550px
+    }
+
+    article h1 {
+      font-size: 30px;
+    }
+
+    article p {
+      font-size: 25px;
+    }
+
+    img.open {
+      top: 900px;
+      left: 400px;
+    }
+
+    img.day {
+      top: 1350px;
+      left: 600px;
+    }
+
+    .left-info {
+    width: 250px;
+    top: 1170px;
+    left: 280px;
+    }
+
+  .right-info {
+    top: 1570px;
+    left: 580px;
+  }
+
+  .left-spot img {
+    width: 260px;
+    position: absolute;
+    top: 300px;
+  }
+
+  .invite {
+    padding-top: 150px;
+  }
+
+  img.zebra {
+    width: 300px;
+    margin-top: -300px;
+  }
+
+  .tiger img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 30px 220px 30px 0;
+  }
+
+  footer a {
+    font-size: 26px;
+  }
+}
