@@ -23,7 +23,7 @@ p {
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;s
+  font-weight: 400;
 }
 
 article {
@@ -206,8 +206,12 @@ footer img {
     }
 
     .invite {
-      padding-top: 80px;
-      width: 250px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-top: 1600px;
+      margin-left: 64px;
+
     }
 
     .tiger img {
@@ -239,14 +243,6 @@ footer img {
       width: 160px;
       font-size: 25px;
       top: 1480px;
-  }
-
-  .invite {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-top: 1600px;
-    margin-left: 64px;
   }
 
   .invite h2 {
