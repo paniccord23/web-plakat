@@ -15,7 +15,7 @@ body {
 
 p {
   font-family: 'AkzidenzGrotesk-Regular';
-  font-size: 18px;
+  font-size: 6vw;
   font-weight: normal;
 
   color: #fff;
@@ -28,20 +28,20 @@ h2 {
 
 article {
   position: absolute;
-  top: 550px;
-  left: 175px;
+  top: 171vw;
+  left: 55vw;
 }
 
 article h1 {
   font-family: 'Ubuntu', sans-serif;;
-  font-size: 24px;
+  font-size: 7vw;
   font-weight: bold;
 
   color: #000;
 }
 
 article p {
-  width: 200px;
+  width: 63vw;
   font-family: 'AkzidenzGrotesk-Light';
   font-weight: 100;
   color: #000;
@@ -57,7 +57,7 @@ article p {
 .letter-content .spot {
     position: absolute;
     z-index: -2;
-    top: 104px;
+    top: 33vw;
 
     display: block;
 
@@ -83,18 +83,18 @@ article p {
 }
 
 .letter-content-1 .info {
-    width: 160px;
+    width: 50vw;
 }
 
 .left-spot {
   position: absolute;
-  top: 1500px;
-  left: -30px;
+  top: 468vw;
+  left: -2vw;;
 }
 
 
 .invite {
-  margin-bottom: -80px;
+  margin-bottom: 25vw;
 }
 
 footer {
@@ -105,7 +105,7 @@ footer {
     display: flex;
 
     width: 100%;
-    height: 50px;
+    height: 16vw;
 
     background-color: #f4d811;
 
@@ -124,7 +124,7 @@ footer a {
 }
 
 footer img {
-    height: 60px;
+    height: 18vw;
 }
 
 @media only screen and (min-width: 320px)
@@ -132,7 +132,7 @@ footer img {
     .eyes {
       position: relative;
       z-index: -1;
-      top: 30px;
+      top: 9vw;
       left: 45%;
     }
 
@@ -141,9 +141,9 @@ footer img {
       z-index: -1;
       display: block;
 
-      width: 400px;
+      width: 125vw;
       margin: 0 auto;
-      margin-bottom: 100px;
+      margin-bottom: 31vw;
     }
 
     img.letter7 {
@@ -163,33 +163,33 @@ footer img {
     }
 
     .spot {
-        width: 100px;
-        margin-top: 90px;
+        width: 31vw;
+        margin-top: 28vw;
     }
 
     .left-content .content {
-        width: 300px;
-        height: 400px;
+        width: 93vw;
+        height: 125vw;
     }
 
     .left-info {
       position: absolute;
-      top: 1030px;
-      left: 70px;
-      width: 180px;
+      top: 321vw;
+      left: 21vw;
+      width: 56vw;
     }
 
     .right-info {
         position: absolute;
-        top: 1300px;
-        left: 200px;
-        width: 160px;
+        top: 406vw;
+        left: 62vw;
+        width: 50vw;
     }
 
     .animal {
       position: absolute;
-      top: 1750px;
-      left: 270px;
+      top: 546vw;
+      left: 84vw;
       display:
     }
 
@@ -198,20 +198,19 @@ footer img {
     }
 
     h2 {
-      font-size: 22px;
+      font-size: 7vw;
       font-family: 'Ubuntu', sans-serif;
       font-weight: 400;
-      margin-bottom: 4px;
+      margin-bottom: 1vw;
       color: #F4D811;
     }
 
     .invite {
-      text-align: center;
-      display: block;
-      margin: 0 auto;
-      margin-top: 1600px;
-      margin-left: 64px;
-
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 515vw;
+        margin-left: 20vw;
     }
 
     .tiger img {
@@ -219,39 +218,29 @@ footer img {
     }
 
     footer {
-      padding: 30px 80px 30px 0;
+      padding: 9vw 25vw 9vw 0;
     }
 
     footer a {
-      font-size: 14px;
+      font-size: 4vw;
     }
 }
 @media only screen and (min-width: 410px)
 {
   article {
-    left: 190px;
+    left: 59vw;
   }
 
   .left-info
   {
-    left: 85px;
-    width: 180px;
+    left: 26vw;
+    width: 56vw;
   }
 
   .right-info {
-      left: 450px;
-      width: 160px;
-      font-size: 25px;
-      top: 1480px;
-  }
-
-  .invite h2 {
-    font-size: 23px;
-    margin-bottom: 5px;
-  }
-
-  .invite p {
-    font-size: 15px;
+    width: 50vw;
+    font-size: 6vw;
+    top: 513vw;
   }
 }
 
@@ -260,67 +249,70 @@ footer img {
     .eyes {
         position: relative;
         z-index: -1;
-        top: 50px;
-        left: 400px;
-
-        width: 100px;
+        width: 31vw;
+        top: 27vw;
+        left: 100vw;
     }
 
     img.letter2 {
-        display: none;
-    }
-
-    img.letter7 {
-        display: block;
-        margin: 0 auto;
+      top: 38vw;
+      width: 169vw;
+      left: 30vw;
     }
 
     img.absurd {
         position: absolute;
-        top: 220px;
-        left: 260px;
+        width: 94vw;
+        top: 91vw;
+        left: 95vw;
         display: block;
-
-        width: 300px;
+        width: 59vw;
     }
 
     img.day {
-        position: absolute;
-        top: 1250px;
-        left: 460px;
-        display: block;
-
-        width: 150px;
+      position: absolute;
+      top: 430vw;
+      left: 134vw;
+      display: block;
+      width: 31vw;
     }
 
     img.open {
-        position: absolute;
-        top: 800px;
-        left: 270px;
-        display: block;
-
-        width: 60px;
+      position: absolute;
+      top: 288vw;
+      left: 95vw;
+      display: block;
+      width: 15vw;
     }
 
     article {
-      top: 760px;
-      left: 450px;
+      top: 249vw;
+      left: 113vw;
     }
 
     .left-info {
-      width: 250px;
-      top: 1130px;
-      left: 150px;
-      font-size: 25px;
+      width: 74vw;
+      top: 423vw;
+      left: 55vw;
+      font-size: 6vw;
     }
 
-    .rift-info {
-    left: 460px;
+    .right-info {
+      width: 50vw;
+      font-size: 6vw;
+      top: 497vw;
+      left: 121vw;
     }
 
     .letter-content .spot {
         position: absolute;
-        top: 155px;
+        top: 100vw;
+        width: 200vw;
+    }
+    .left-spot img {
+      width: 52vw;
+      margin-top: 65vw;
+      margin-top: -27vw;
     }
 
     .animal {
@@ -330,24 +322,29 @@ footer img {
     img.zebra {
       display: block;
       margin: 0 auto;
-      margin-top: -220px;
+      margin-top: 776vw;
+      margin-left: 81vw;
+      margin-bottom: 50vw;
+      width: 60vw;
     }
 
     .invite {
       text-align: center;
       display: block;
-      width: 450px;
+      width: 140vw;
       margin: 0 auto;
+      margin-top: -172vw;
+      margin-left: 40vw;
     }
 
     .invite h2 {
-      font-size: 40px;
+      font-size: 12vw;
       color: #F4D811;
-      margin-bottom: 5px;
+      margin-bottom: 1vw;
     }
 
     .invite p {
-      font-size: 25px;
+      font-size: 8vw;
     }
 
     .tiger img {
@@ -355,86 +352,97 @@ footer img {
     }
 
     footer a {
-        font-size: 22px;
+        font-size: 7vw;
     }
 }
 
 @media only screen and (min-width: 1024px)
 {
     .eyes {
-        position: relative;
-        z-index: -1;
-        top: 90px;
-        left: 500px;
-
-        width: 200px;
+      position: relative;
+      z-index: -1;
+      top: 20vw;
+      left: 94vw;
+      width: 40vw;
     }
 
     img.absurd {
-      padding-top: 80px;
-      top: 210px;
-      left: 380px;
-    }
+      padding-top: 25vw;
+      top: 65vw;
+      left: 92vw;
+      }
 
     article {
-      top: 825px;
-      left: 550px
+      top: 247vw;
+      left: 108vw;
     }
 
     article h1 {
-      font-size: 30px;
+      font-size: 9vw;
     }
 
     article p {
-      font-size: 25px;
+      font-size: 8vw;
     }
 
     img.open {
-      top: 900px;
-      left: 400px;
+      top: 285vw;
+      left: 96vw;
     }
 
     img.day {
-      top: 1350px;
-      left: 600px;
+      top: 434vw;
+      left: 132vw;
     }
 
     .left-info {
-    width: 250px;
-    top: 1170px;
-    left: 280px;
+      width: 80vw;
+      font-size: 9vw;
+      top: 468vw;
+      left: 54vw;
     }
 
   .right-info {
-    top: 1570px;
-    left: 580px;
+    top: 564vw;
+    left: 110vw;
+    font-size: 9vw;
+    width: 57vw;
   }
 
   .left-spot img {
-    width: 260px;
+    width: 52vw;
     position: absolute;
-    top: 300px;
+    top: 33vw;
   }
 
   .invite {
-    padding-top: 150px;
-  }
+    margin-top: 12vw;
+    margin-left: 32vw;
+    }
 
   img.zebra {
-    width: 300px;
-    margin-top: -300px;
+    width: 94vw;
+    margin-top: 742vw;
+    margin-left: 73vw;
   }
 
   .tiger img {
     display: block;
     margin: 0 auto;
+    margin-left: 59vw;
+    width: 83vw;
+    margin-bottom: 3vw;
   }
 
   footer {
-    padding: 30px 220px 30px 0;
+    padding: 6vw 33vw 6vw 0;
+  }
+
+  footer img {
+      height: 16vw;
   }
 
   footer a {
-    font-size: 26px;
+    font-size: 5vw;
   }
 }
